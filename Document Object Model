@@ -26,3 +26,18 @@ It makes your webpage interactive (e.g., responding to button clicks, form submi
 Developers can add, modify, or remove elements and styles in real-time.
 4.Cross-Platform Compatibility: 
 It provides a standard way for scripts to interact with web documents, ensuring browser compatibility.
+
+## How the DOM Works?
+The DOM connects your webpage to JavaScript, allowing you to:
+
+Access elements (like finding an <h1> tag).
+Modify content (like changing the text of a <p> tag).
+React to events (like a button click).
+Create or remove elements dynamically.
+
+## Types of DOM
+The DOM is seperated into 3 parts:
+
+Core DOM: It is standard model for all document types(All DOM implementations must support the interfaces listed as "fundamental" in the code specifications).
+XML DOM: It is standard model for XML Documents( as the name suggests, all XML elements can be accessed through the XML DOM .)
+HTML DOM: It is standard model for HTML documents (The HTML DOM is a standard for how to get, change, add, or delete HTML elements.)
