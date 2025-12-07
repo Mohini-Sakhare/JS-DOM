@@ -80,3 +80,19 @@ document.getElementsByClassName(classnames);
 Parameters: 
 This is a required method that takes only one parameter, which is a string containing space-separated class names of the elements that are to be searched for. 
 For searching with multiple class names, it must be separated with space.
+
+3.querySelector() Method
+The querySelector() method returns the first element that matches the specified Selector.
+It only gives one element from the HTML DOM if found else it returns null. 
+To get all the matching elements, you can use the querySelectorAll() method.
+
+Syntax
+// To search in complete documemt
+ducument.querySelector(selectors);
+
+// To search inside a specific element 
+element.querySelector("html-tag .class-name #element-id...");
+
+selectors: It is a string containing the CSS Selectors.
+
+Return value: The first element that matches the selectors if found else null.
