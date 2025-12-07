@@ -41,3 +41,13 @@ The DOM is seperated into 3 parts:
 Core DOM: It is standard model for all document types(All DOM implementations must support the interfaces listed as "fundamental" in the code specifications).
 XML DOM: It is standard model for XML Documents( as the name suggests, all XML elements can be accessed through the XML DOM .)
 HTML DOM: It is standard model for HTML documents (The HTML DOM is a standard for how to get, change, add, or delete HTML elements.)
+
+## Properties of the DOM
+1. Node-Based: 
+Everything in the DOM is represented as a node (e.g., element nodes, text nodes, attribute nodes).
+2.Hierarchical: 
+The DOM has a parent-child relationship, forming a tree structure.
+3.Live:
+Changes made to the DOM using JavaScript are immediately reflected on the web page.
+4.Platform-Independent: 
+It works across different platforms, browsers, and programming languages.
