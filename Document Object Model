@@ -53,7 +53,7 @@ Changes made to the DOM using JavaScript are immediately reflected on the web pa
 It works across different platforms, browsers, and programming languages.
 
 ## Commonly Used DOM Methods
-1.HTML DOM getElementById() Method
+1.getElementById() Method
 The getElementById() method returns the elements that have given an ID which is passed to the function. 
 This function is a widely used HTML DOM method in web designing to change the value of any particular element or get a particular element. 
 If the passed ID to the function does not exist then it returns null.
@@ -66,3 +66,17 @@ This function accepts single parameter element_ID which is used to hold the ID o
 
 Return Value:
 It returns the object of the given ID. If no element exists with the given ID then it returns null.
+
+2.getElementsByClassName() Method
+The getElementsByClassName() method in Javascript returns an object containing all the elements with the specified class names in the document as objects. 
+Each element in the returned object can be accessed by its index. 
+The index value will start with 0. 
+This method can be called upon by any individual element to search for its descendant elements with the specified class names.
+
+Syntax:
+
+document.getElementsByClassName(classnames);
+
+Parameters: 
+This is a required method that takes only one parameter, which is a string containing space-separated class names of the elements that are to be searched for. 
+For searching with multiple class names, it must be separated with space.
