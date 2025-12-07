@@ -51,3 +51,18 @@ The DOM has a parent-child relationship, forming a tree structure.
 Changes made to the DOM using JavaScript are immediately reflected on the web page.
 4.Platform-Independent: 
 It works across different platforms, browsers, and programming languages.
+
+## Commonly Used DOM Methods
+1.HTML DOM getElementById() Method
+The getElementById() method returns the elements that have given an ID which is passed to the function. 
+This function is a widely used HTML DOM method in web designing to change the value of any particular element or get a particular element. 
+If the passed ID to the function does not exist then it returns null.
+
+Syntax:
+document.getElementById( element_ID )
+
+Parameter:
+This function accepts single parameter element_ID which is used to hold the ID of the element.
+
+Return Value:
+It returns the object of the given ID. If no element exists with the given ID then it returns null.
