@@ -120,3 +120,14 @@ let element = document.createElement("elementName");
 In the above syntax, elementName is passed as a parameter. elementName specifies the type of the created element. 
 The nodeName of the created element is initialized to the elementName value.
 The document.createElement() returns the newly created element. 
+
+6.appendChild() Method
+The HTML DOM appendChild() method adds a new child node to the end of a specified parent node's child list. 
+It can move existing nodes or add new nodes, allowing dynamic updates to the document structure by appending elements, text, or other nodes.
+
+Syntax:
+
+node.appendChild(node);
+
+Parameters: 
+This method accepts a single parameter node which is mandatory and used to specify the node object that needs to be appended.
