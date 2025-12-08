@@ -96,3 +96,16 @@ element.querySelector("html-tag .class-name #element-id...");
 selectors: It is a string containing the CSS Selectors.
 
 Return value: The first element that matches the selectors if found else null.
+
+4.querySelectorAll() Method
+The querySelectorAll() method in HTML is used to return a collection of an element's child elements that match a specified CSS selector(s), as a static NodeList object.
+The NodeList object represents a collection of nodes. 
+The nodes can be accessed by index numbers. The index starts at 0. 
+
+Syntax:
+element.querySelectorAll(selectors)
+
+Selectors are the required field.
+It specifies one or more CSS selectors to match the element.
+These selectors are used to select HTML elements based on their id, classes, types, etc. 
+In the case of multiple selectors, a comma is used to separate each selector.
