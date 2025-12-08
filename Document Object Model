@@ -109,3 +109,14 @@ Selectors are the required field.
 It specifies one or more CSS selectors to match the element.
 These selectors are used to select HTML elements based on their id, classes, types, etc. 
 In the case of multiple selectors, a comma is used to separate each selector.
+
+5.createElement() Method
+In an HTML document, the document.createElement() is a method used to create the HTML element. 
+The element specified using elementName is created or an unknown HTML element is created if the specified elementName is not recognized. 
+
+Syntax
+
+let element = document.createElement("elementName");
+In the above syntax, elementName is passed as a parameter. elementName specifies the type of the created element. 
+The nodeName of the created element is initialized to the elementName value.
+The document.createElement() returns the newly created element. 
