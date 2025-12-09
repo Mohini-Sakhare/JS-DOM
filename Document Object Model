@@ -131,3 +131,13 @@ node.appendChild(node);
 
 Parameters: 
 This method accepts a single parameter node which is mandatory and used to specify the node object that needs to be appended.
+
+7.remove() Method
+The Select remove() method in HTML DOM is used to remove an option from a drop-down list. 
+This method accepts the index number as a parameter to removing the option from the desired position. 
+
+Syntax:
+
+selectObject.remove(index)
+
+Parameters: It contains single parameter index which is mandatory and used to specify the index position of the element to be removed. 
