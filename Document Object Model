@@ -146,3 +146,11 @@ Parameters: It contains single parameter index which is mandatory and used to sp
 The addEventListener() method attaches an event handler to the specified element.
 Syntax:
 element.addEventListener(event, function, useCapture)
+
+## DOM Data Types
+When working with the DOM (Document Object Model), there are different types of data or building blocks used behind the scenes. Here’s what they mean in everyday terms:
+
+Document: Think of it as the entire webpage. It's like the starting point or the big box that holds everything you see on a website.
+Node: Anything on the webpage—like a heading, paragraph, image, or even some hidden parts—is called a node. It’s like a small part or piece of the whole page.
+Element: This is a specific type of node. It represents actual tags you write in HTML, like <div>, <p>, or <img>. These are the visible parts of the page.
+NodeList: Imagine you ask the page to give you all the buttons or all the paragraphs—it gives you a list of those items. That list is called a NodeList. It's like a group of nodes stored together.
