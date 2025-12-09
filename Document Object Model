@@ -141,3 +141,8 @@ Syntax:
 selectObject.remove(index)
 
 Parameters: It contains single parameter index which is mandatory and used to specify the index position of the element to be removed. 
+
+8. addEventListener() Method
+The addEventListener() method attaches an event handler to the specified element.
+Syntax:
+element.addEventListener(event, function, useCapture)
